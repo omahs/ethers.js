@@ -55,7 +55,7 @@ the above prefixed message format.
 So, all existing messages, tools and instances using the signed
 message format were already EIP-191 compliant, long before the
 standard existed or was even conceived and allowed for an extensible
-format for future formats (of which there now a few).
+format for future formats (of which there are now a few).
 
 Anyways, the necessary JavaScript and Solidity are provided below.
 
@@ -165,7 +165,7 @@ contract RecoverMessage {
     bytes32 yParityAndS;
   }
 
-  // This is an expaned Signature representation
+  // This is an expanded Signature representation
   struct SignatureExpanded {
       uint8 v;
       bytes32 r;
