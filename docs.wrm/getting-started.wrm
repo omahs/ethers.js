@@ -76,7 +76,7 @@ maths) and storing the updated information.
 
 If a transaction reverts, a fee must still be paid, since the validator
 still had to expend resources to try running the transaction to determine
-that it reverted and the details of its failure are still be recorded.
+that it reverted and the details of its failure are still recorded.
 
 Transactions include sending ether from one user to another, deploying
 a **Contract** or executing a state-changing operation against a
