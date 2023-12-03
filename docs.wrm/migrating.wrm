@@ -89,7 +89,7 @@ _code: contracts in v5 @lang<script>
   // signature to access the desired method. For example:
   contract["foo(address)"](addr)
 
-  // These would fail, since there signature is not normalized:
+  // These would fail, since the signature is not normalized:
   contract["foo(address )"](addr)
   contract["foo(address addr)"](addr)
 
